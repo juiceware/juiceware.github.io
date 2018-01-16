@@ -1,0 +1,48 @@
+---
+---
+@import "colors";
+
+header {
+  background-color: $primary;
+
+  .container {
+    padding-top: 60px;
+  }
+
+  .intro-text {
+    margin-bottom: 40px;
+  }
+
+  a {
+    color: white !important;
+
+    &:hover .fa-circle {
+      color: darken($secondary, 10%);
+    }
+  }
+
+  .fa-stack .fa-circle {
+    color: $secondary;
+  }
+}
+
+#mainNav {
+  .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  padding: 0;
+  background: $secondary;
+}
+
+footer {
+  .footer-below {
+    background-color: $secondary;
+  }
+}
